@@ -1,1 +1,36 @@
-
+.navbar-brand
+{
+	font-size: 150%;
+}
+.nav-item
+{
+	font-size: 120%;
+}
+.row
+{
+	width: 100%;
+}
+.MenuItems
+{
+	background-color: antiquewhite;
+}
+#Menu
+{
+	padding-top: 60px;
+	color: sienna;
+}
+.col-md-12
+{
+	padding-left: 55px;
+}
+.card
+{
+	width: 380px;
+	margin-top: 30px;
+	margin-left: 70px;
+}
+.card-img-top
+{
+	width: 380px;
+	height: 260px;
+}
