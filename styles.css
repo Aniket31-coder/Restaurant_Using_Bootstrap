@@ -13,6 +13,7 @@
 .MenuItems
 {
 	background-color: antiquewhite;
+	padding-bottom: 60px;
 }
 #Menu
 {
@@ -33,4 +34,40 @@
 {
 	width: 380px;
 	height: 260px;
+}
+#Reviews
+{
+	background-color: #ff5775;
+	text-align: center;
+}
+.carousel-item
+{
+  padding: 5% 14%;
+}
+.review_image
+{
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+}
+footer
+{
+	width: 100%;
+	height: 240px;
+	background-color: #91091e;
+	color: white;
+	padding-top: 5px;
+}
+.Contact img
+{
+	border-radius: 50%;
+}
+.Contact ul li
+{
+	display: inline;
+	padding-right: 5px;
+}
+ul a::hover
+{
+	background-color: white;
 }
