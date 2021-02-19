@@ -1,73 +1,76 @@
-.navbar-brand
-{
-	font-size: 150%;
+.navbar-brand {
+  font-size: 150%;
 }
-.nav-item
-{
-	font-size: 120%;
+.nav-item {
+  font-size: 120%;
 }
-.row
-{
-	width: 100%;
+.mainbody {
+  background-color: #ff5665;
+  height: 100%;
 }
-.MenuItems
-{
-	background-color: antiquewhite;
-	padding-bottom: 60px;
+.row {
+  width: 100%;
 }
-#Menu
-{
-	padding-top: 60px;
-	color: sienna;
+.MenuItems {
+  background-color: antiquewhite;
+  padding-bottom: 60px;
 }
-.col-md-12
-{
-	padding-left: 55px;
+#Menu {
+  padding-top: 60px;
+  color: sienna;
 }
-.card
-{
-	width: 380px;
-	margin-top: 30px;
-	margin-left: 70px;
+.col-md-12 {
+  padding-left: 55px;
 }
-.card-img-top
-{
-	width: 380px;
-	height: 260px;
+.card {
+  width: 380px;
+  margin-top: 30px;
+  margin-left: 70px;
 }
-#Reviews
-{
-	background-color: #ff5775;
-	text-align: center;
+.card-img-top {
+  width: 380px;
+  height: 260px;
 }
-.carousel-item
-{
+#Reviews {
+  background-color: #ff5775;
+  text-align: center;
+}
+.carousel-item {
   padding: 5% 14%;
 }
-.review_image
-{
-	border-radius: 50%;
-	width: 100px;
-	height: 100px;
+.review_image {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
 }
-footer
-{
-	width: 100%;
-	height: 240px;
-	background-color: #91091e;
-	color: white;
-	padding-top: 5px;
+.address {
+  padding-top: 15px;
+  line-height: 2;
 }
-.Contact img
-{
-	border-radius: 50%;
+.icons {
+  list-style-type: none;
+  padding: 20px 0px;
 }
-.Contact ul li
-{
-	display: inline;
-	padding-right: 5px;
+.contact-page {
+  background-color: antiquewhite;
+  padding-bottom: 20px;
 }
-ul a::hover
-{
-	background-color: white;
+#Contact {
+  padding-top: 60px;
+  color: sienna;
+  padding-bottom: 15px;
+}
+footer {
+  width: 100%;
+  height: 240px;
+  background-color: #91091e;
+  color: white;
+  padding-top: 25px;
+}
+.icons img {
+  border-radius: 50%;
+}
+.icons li {
+  display: inline;
+  padding-right: 20px;
 }
