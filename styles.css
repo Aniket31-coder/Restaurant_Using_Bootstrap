@@ -5,8 +5,19 @@
   font-size: 120%;
 }
 .mainbody {
-  background-color: #ff5665;
-  height: 100%;
+  background-color: #dbb98f;
+}
+.home-tagline {
+  text-align: center;
+  color: #96351e;
+  font-size: 400%;
+  padding: 300px 20px 30px 60px;
+}
+
+.Mobile-App {
+  margin: 200px 0px 50px 120px;
+  height: 450px;
+  border-radius: 35px;
 }
 .row {
   width: 100%;
@@ -65,7 +76,7 @@ footer {
   height: 240px;
   background-color: #91091e;
   color: white;
-  padding-top: 25px;
+  padding-top: 50px;
 }
 .icons img {
   border-radius: 50%;
