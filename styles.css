@@ -10,7 +10,7 @@
 /* Home Section */
 
 .mainbody {
-  background-color: #dbb98f;
+  background-color: #008891;
 }
 
 .home-tagline {
@@ -21,10 +21,12 @@
 }
 
 .Mobile-App {
-  margin: 200px 0px 50px 120px;
+  margin: 200px 0 50px 120px;
   height: 450px;
   border-radius: 35px;
 }
+
+/* Menu Section */
 
 .row {
   width: 100%;
@@ -35,24 +37,32 @@
 }
 #Menu {
   padding-top: 60px;
-  color: sienna;
+  color: white;
 }
 
 .col-md-12 {
   padding-left: 55px;
 }
 
-/* Card Section */
-
 .card {
   width: 380px;
   margin-top: 30px;
   margin-left: 70px;
 }
+
 .card-img-top {
   width: 380px;
   height: 260px;
 }
+
+.card-header{
+  background-color: #e3d18a;
+}
+
+.card-body{
+  background-color: #bd9354;
+}
+
 
 /* Reviews Section */
 
