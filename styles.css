@@ -10,14 +10,22 @@
 /* Home Section */
 
 .mainbody {
-  background-color: #008891;
+  background-color: indianred;
 }
 
 .home-tagline {
   text-align: center;
   color: #96351e;
   font-size: 400%;
-  padding: 300px 20px 30px 60px;
+  padding: 270px 20px 30px 60px;
+}
+
+.download-button1{
+  margin: 5% 0 5% 25%;
+}
+
+.download-button2{
+  margin: 5% 0 5% 25%;
 }
 
 .Mobile-App {
@@ -31,13 +39,15 @@
 .row {
   width: 100%;
 }
+
 .MenuItems {
   background-color: antiquewhite;
   padding-bottom: 60px;
 }
+
 #Menu {
   padding-top: 60px;
-  color: white;
+  color: sienna;
 }
 
 .col-md-12 {
@@ -47,7 +57,7 @@
 .card {
   width: 380px;
   margin-top: 30px;
-  margin-left: 70px;
+  margin-left: 12%;
 }
 
 .card-img-top {
@@ -55,12 +65,8 @@
   height: 260px;
 }
 
-.card-header{
-  background-color: #e3d18a;
-}
-
 .card-body{
-  background-color: #bd9354;
+  background-color: #e3d18a;
 }
 
 
@@ -68,6 +74,12 @@
 
 #Reviews {
   background-color: #ff5775;
+  text-align: center;
+}
+
+.review-text{
+  padding-top: 60px;
+  color: white;
   text-align: center;
 }
 
@@ -108,6 +120,7 @@
   background-color: antiquewhite;
   padding-bottom: 20px;
 }
+
 #Contact {
   padding-top: 60px;
   color: sienna;
