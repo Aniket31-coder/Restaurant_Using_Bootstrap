@@ -1,198 +1,234 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<head>
+
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="styles.css">
+
+  <title>FoodVilla!</title>
+
+</head>
+
+<body>
+
+  <!--NavBar Section-->
+
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #91091e;">
+    <a class="navbar-brand px-5" href="#">FoodVilla</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="nav navbar-nav navbar-right px-4 ml-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+          <a class="nav-link" href="#Menu">Menu</a>
+        </li>
+        <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+          <a class="nav-link" href="#Reviews">Reviews</a>
+        </li>
+        <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+          <a class="nav-link" href="#Contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!--https://www.teahub.io/photos/full/283-2837480_high-resolution-restaurant-background-images-hd.jpg-->
 
 
-    <!-- External CSS -->
-    <link rel="stylesheet" href="styles.css">
+  <!-- Home Section -->
+  <!--<img src="Table1.jpg" class="img-fluid" alt="Responsive image" style="width: 100%;">-->
+  <div class="mainbody">
 
-    <title>FoodVilla!</title>
-  </head>
-  <body>
-		<!--<h1>Hello, world!</h1>-->
-		<nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #91091e;">
-			<a class="navbar-brand px-5" href="#">FoodVilla</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="nav navbar-nav navbar-right px-4 ml-auto">
-				<li class="nav-item">
-					<a class="nav-link active" aria-current="page" href="#">Home</a>
-				</li>
-				<li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-					<a class="nav-link" href="#Menu">Menu</a>
-				</li>
-				<li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-					<a class="nav-link" href="#Reviews">Reviews</a>
-				</li>
-				<li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-					<a class="nav-link" href="#Contact">Contact</a>
-				</li>
-				</ul>
-				</div>
-		</nav>
-		<!--https://www.teahub.io/photos/full/283-2837480_high-resolution-restaurant-background-images-hd.jpg-->
-	</div>
-	
-	<!--<img src="Table1.jpg" class="img-fluid" alt="Responsive image" style="width: 100%;">-->
-	<div class="mainbody">
-		<div class="row">
-			<div class="col-lg-6">
-			  <h1 class="home-tagline">Where food speaks with your palate</h1>
-			  <!--<button type="button" class="btn btn-dark btn-lg "><img src="" alt="">Download</button>
+    <div class="row">
+
+      <div class="col-lg-6">
+        <h1 class="home-tagline">Where food speaks with your palate</h1>
+        <!--<button type="button" class="btn btn-dark btn-lg "><img src="" alt="">Download</button>
 			  <button type="button" class="btn btn-outline-light btn-lg">Download</button>-->
-			</div>
-	
-			<div class="col-lg-6">
-			  <img class="Mobile-App" src="FoodVilla.png" alt="iphone-mockup" />
-			</div>
-	
-		</div>
-	</div>
-
-	<div class="MenuItems">
-	<div class="row">
-	<h1 class="text-center col-lg-12 col-md-12 col-sm-12" id="Menu">Menu</h1>
-	</div>
-	<div class="row">
-    <div class="col-lg-4 col-md-6 col-sm-12">
-      <div class="card">
-        <img class="card-img-top" src="soup.jpeg" alt="Soup Image">
-        <div class="card-header">
-          <h3 class="class-title text-center px-5">Tomato Soup</h3>
-        </div>
-        <div class="card-body">
-          <p class="card-text text-center">Divine taste with every drop.</p>
-        </div>
       </div>
+
+      <div class="col-lg-6">
+        <img class="Mobile-App" src="FoodVilla.png" alt="iphone-mockup" />
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Menu Section -->
+
+  <div class="MenuItems">
+
+    <div class="row">
+      <h1 class="text-center col-lg-12 col-md-12 col-sm-12" id="Menu">Menu</h1>
     </div>
 
-	<div class="col-lg-4 col-md-6 col-sm-12">
-      <div class="card">
-        <img class="card-img-top" src="starters.jpeg" alt="Starters Image">
-        <div class="card-header">
-          <h3 class="class-title text-center px-4">Paneer Chilly</h3>
-        </div>
-        <div class="card-body">
-          <p class="card-text text-center">The principal lifesaver for vegetarian lovers with a Chinese touch.</p>
-        </div>
-      </div>
-    </div>
-	
-	<div class="col-lg-4 col-md-6 col-sm-12">
-      <div class="card">
-        <img class="card-img-top" src="naan.jpg" alt="Soup Image">
-        <div class="card-header">
-          <h3 class="class-title text-center px-4">Naan</h3>
-        </div>
-        <div class="card-body">
-          <p class="card-text text-center">The best friend for all our main course gravy items 
-</p>
+    <div class="row">
+
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="card">
+          <img class="card-img-top" src="soup.jpeg" alt="Soup Image">
+          <div class="card-header">
+            <h3 class="class-title text-center px-5">Tomato Soup</h3>
+          </div>
+          <div class="card-body">
+            <p class="card-text text-center">Divine taste with every drop.</p>
+          </div>
         </div>
       </div>
-    </div>
-	
-	<div class="col-lg-4 col-md-6 col-sm-12">
-      <div class="card">
-        <img class="card-img-top" src="veg-Handi.jpg" alt="Soup Image">
-        <div class="card-header">
-          <h3 class="class-title text-center px-4">Veg. Handi</h3>
-        </div>
-        <div class="card-body">
-          <p class="card-text text-center">The famous ancestral style cooking loved all over north india</p>
-        </div>
-      </div>
-    </div>
-	
-	<div class="col-lg-4 col-md-6 col-sm-12">
-      <div class="card">
-        <img class="card-img-top" src="Biryani.jpeg" alt="Soup Image">
-        <div class="card-header">
-          <h3 class="class-title text-center px-4">Biryani</h3>
-        </div>
-        <div class="card-body">
-          <p class="card-text text-center">Fragrance that makes your hungry, taste that makes you smile.</p>
+
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="card">
+          <img class="card-img-top" src="starters.jpeg" alt="Starters Image">
+          <div class="card-header">
+            <h3 class="class-title text-center px-4">Paneer Chilly</h3>
+          </div>
+          <div class="card-body">
+            <p class="card-text text-center">The principal lifesaver for vegetarian lovers with a Chinese touch.</p>
+          </div>
         </div>
       </div>
-    </div>
-	
-	<div class="col-lg-4 col-md-6 col-sm-12">
-      <div class="card">
-        <img class="card-img-top" src="gulab_jamun.jpeg" alt="Soup Image">
-        <div class="card-header">
-          <h3 class="class-title text-center px-4">Gulab Jamun</h3>
-        </div>
-        <div class="card-body">
-          <p class="card-text text-center">Your favourite melt-in-the-mouth desert to have existed on earth</p>
+
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="card">
+          <img class="card-img-top" src="naan.jpg" alt="Soup Image">
+          <div class="card-header">
+            <h3 class="class-title text-center px-4">Naan</h3>
+          </div>
+          <div class="card-body">
+            <p class="card-text text-center">The best friend for all our main course gravy items
+            </p>
+          </div>
         </div>
       </div>
+
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="card">
+          <img class="card-img-top" src="veg-Handi.jpg" alt="Soup Image">
+          <div class="card-header">
+            <h3 class="class-title text-center px-4">Veg. Handi</h3>
+          </div>
+          <div class="card-body">
+            <p class="card-text text-center">The famous ancestral style cooking loved all over north india</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="card">
+          <img class="card-img-top" src="Biryani.jpeg" alt="Soup Image">
+          <div class="card-header">
+            <h3 class="class-title text-center px-4">Biryani</h3>
+          </div>
+          <div class="card-body">
+            <p class="card-text text-center">Fragrance that makes your hungry, taste that makes you smile.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="card">
+          <img class="card-img-top" src="gulab_jamun.jpeg" alt="Soup Image">
+          <div class="card-header">
+            <h3 class="class-title text-center px-4">Gulab Jamun</h3>
+          </div>
+          <div class="card-body">
+            <p class="card-text text-center">Your favourite melt-in-the-mouth desert to have existed on earth</p>
+          </div>
+        </div>
+      </div>
+
     </div>
-    
-	</div>
-	
-	</div>
-	
-	<div id="Reviews">
-		<h1 class="text-center" id="Menu" >Reviews</h1>
-	<div id="carouselControls" class="carousel slide" data-ride="false">
-	  <div class="carousel-inner fs-3">
-		<div class="carousel-item active">
-		 <h3>Amazing Food! Will come daily to eat such food! The place is not hygenic.</h3>
-		 <img src="https://www.cleancookingalliance.org/images/data/IMAGE/photo/000/000/873-2.JPG" class="review_image">
-		 <em>Masterchef Sanjeev Kapoor</em>
-		</div>
-		<div class="carousel-item">
-		   <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent suscipit vehicula consectetur. Cras fringilla turpis vel leo auctor, a malesuada felis mollis. Maecenas at leo sem. Fusce elementum nisi est, sit amet interdum quam volutpat eu. Duis varius augue erat, eget blandit est iaculis nec. Morbi nisl tellus, fermentum eu gravida id, gravida nec dolor. Phasellus non augue quis urna porttitor efficitur id eu tortor. Mauris placerat consectetur facilisis.</h3>
-		   <img src="face3.jpeg" class="review_image">
-		 <em>Don Shreyas</em>
-		</div>
-		<div class="carousel-item">
-		   <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent suscipit vehicula consectetur. Cras fringilla turpis vel leo auctor, a malesuada felis mollis. Maecenas at leo sem. Fusce elementum nisi est, sit amet interdum quam volutpat eu. Duis varius augue erat, eget blandit est iaculis nec. Morbi nisl tellus, fermentum eu gravida id, gravida nec dolor. Phasellus non augue quis urna porttitor efficitur id eu tortor. Mauris placerat consectetur facilisis.</h3>
-		   <img src="https://resize.indiatvnews.com/en/resize/newbucket/715_-/2020/04/uddhav-thackeray-pti-final-1588083609.jpg" class="review_image">
-		 <em>Vikas Khanna</em>
-		</div>
-	  </div>
-	  <a class="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
-		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-		<span class="sr-only">Previous</span>
-	  </a>
-	  <a class="carousel-control-next" href="#carouselControls" role="button" data-slide="next">
-		<span class="carousel-control-next-icon" aria-hidden="true"></span>
-		<span class="sr-only">Next</span>
-	  </a>
-	</div>
-	</div>
-	
-	<div class="contact-page text-center px-5">
-	<h1 id="Contact">Contact</h1>
-	<div class="row">
-	<div class="address col-sm-12 col-md-6 col-lg-6">
-	<h4>Address</h4><br>
-	17, Nityanand Baug Rd,<br> Camp(E), Chembur Colony,<br> Chembur, Mumbai,<br> Maharashtra 400071
-	<ul class="icons">
-	<li><a href=""><img src="social_media_icons/facebook.png" width="25px" height="25px"></a></li>
-	<li><a href=""><img src="social_media_icons/twitter.png" width="25px" height="25px"></a></li>
-	<li><a href=""><img src="social_media_icons/instagram.png" width="25px" height="25px"></a></li>
-	<li><a href=""><img src="social_media_icons/linkedin.png" width="30px" height="30px"></a></li>
-	</ul>
-	</div>
-	<div class="col-sm-12 col-md-6 col-lg-6">
-	<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15085.707362751313!2d72.8948101!3d19.0449618!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xefbad3b2b3d8dbee!2sFood%20Villa!5e0!3m2!1sen!2sin!4v1613318807016!5m2!1sen!2sin" width="100%" height="450px" frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-	</div>
-	</div>
-	</div>
-	<footer><p class="text-center">©Copyrights Reserved 2021</p></footer>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  </body>
+
+  </div>
+
+  <!-- Reviews Section -->
+
+  <div id="Reviews">
+
+    <h1 class="text-center" id="Menu">Reviews</h1>
+    <div id="carouselControls" class="carousel slide" data-ride="false">
+      <div class="carousel-inner fs-3">
+
+        <div class="carousel-item active">
+          <h3>Amazing Food! Will come daily to eat such food! The place is not hygenic.</h3>
+          <img src="https://www.cleancookingalliance.org/images/data/IMAGE/photo/000/000/873-2.JPG" class="review_image">
+          <em>Masterchef Sanjeev Kapoor</em>
+        </div>
+
+        <div class="carousel-item">
+          <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent suscipit vehicula consectetur. Cras fringilla turpis vel leo auctor, a malesuada felis mollis. Maecenas at leo sem. Fusce elementum nisi est, sit amet interdum quam
+            volutpat eu. Duis varius augue erat, eget blandit est iaculis nec. Morbi nisl tellus, fermentum eu gravida id, gravida nec dolor. Phasellus non augue quis urna porttitor efficitur id eu tortor. Mauris placerat consectetur facilisis.</h3>
+          <img src="face3.jpeg" class="review_image">
+          <em>Don Shreyas</em>
+        </div>
+
+        <div class="carousel-item">
+          <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent suscipit vehicula consectetur. Cras fringilla turpis vel leo auctor, a malesuada felis mollis. Maecenas at leo sem. Fusce elementum nisi est, sit amet interdum quam
+            volutpat eu. Duis varius augue erat, eget blandit est iaculis nec. Morbi nisl tellus, fermentum eu gravida id, gravida nec dolor. Phasellus non augue quis urna porttitor efficitur id eu tortor. Mauris placerat consectetur facilisis.</h3>
+          <img src="https://resize.indiatvnews.com/en/resize/newbucket/715_-/2020/04/uddhav-thackeray-pti-final-1588083609.jpg" class="review_image">
+          <em>Vikas Khanna</em>
+        </div>
+      </div>
+
+      <a class="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+
+      <a class="carousel-control-next" href="#carouselControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- Contact Section -->
+
+  <div class="contact-page text-center px-5">
+    <h1 id="Contact">Contact</h1>
+    <div class="row">
+
+      <div class="address col-sm-12 col-md-6 col-lg-6">
+        <h4>Address</h4><br>
+        17, Nityanand Baug Rd,<br> Camp(E), Chembur Colony,<br> Chembur, Mumbai,<br> Maharashtra 400071
+        <ul class="icons">
+          <li><a href=""><img src="social_media_icons/facebook.png" width="25px" height="25px"></a></li>
+          <li><a href=""><img src="social_media_icons/twitter.png" width="25px" height="25px"></a></li>
+          <li><a href=""><img src="social_media_icons/instagram.png" width="25px" height="25px"></a></li>
+          <li><a href=""><img src="social_media_icons/linkedin.png" width="30px" height="30px"></a></li>
+        </ul>
+      </div>
+
+      <div class="col-sm-12 col-md-6 col-lg-6">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15085.707362751313!2d72.8948101!3d19.0449618!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xefbad3b2b3d8dbee!2sFood%20Villa!5e0!3m2!1sen!2sin!4v1613318807016!5m2!1sen!2sin"
+          width="100%" height="450px" frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Footer Section -->
+
+  <footer>
+    <p class="text-center">©Copyrights Reserved 2021</p>
+  </footer>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
 </html>
