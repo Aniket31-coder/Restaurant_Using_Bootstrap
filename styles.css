@@ -40,6 +40,10 @@
   width: 100%;
 }
 
+.menu-title{
+  text-align: center;
+}
+
 .MenuItems {
   background-color: antiquewhite;
   padding-bottom: 60px;
